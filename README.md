@@ -34,6 +34,20 @@ Browser -> FastAPI -> Neo4j Python driver -> CognoDB over Bolt
 The backend and no-build frontend are served by one FastAPI process. See
 [docs/architecture.md](docs/architecture.md) for the data model and request
 flow.
+## Application evidence
+
+Hosted application demo: <https://depgraph-1-broj.onrender.com>
+
+The repository includes a short screen recording and captured UI frames:
+
+- [Short screen recording](docs/depgraph-launch-walkthrough.mp4)
+- [Projects](docs/screenshots/01-projects.png)
+- [Project detail](docs/screenshots/02-project-detail.png)
+- [Package detail](docs/screenshots/03-package-detail.png)
+- [Vulnerability blast radius](docs/screenshots/04-vulnerability-blast-radius.png)
+- [Maintainer risk](docs/screenshots/05-maintainer-risk.png)
+
+Do not publish database credentials in a screenshot or recording.
 
 ## Repository layout
 
@@ -49,6 +63,7 @@ render.yaml           Render Blueprint configuration
 requirements.txt      Python dependencies
 runtime.txt           Python runtime pin
 ```
+
 
 ## Prerequisites
 

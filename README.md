@@ -37,10 +37,10 @@ flow.
 ## Application evidence
 
 Hosted application demo: <https://depgraph-1-broj.onrender.com>
-
+Short Screen Recording : https://drive.google.com/file/d/1DjgaznOJXGIx3qwpsRjk3_PqtGvMYT5l/view?usp=sharing
 The repository includes a short screen recording and captured UI frames:
 
-- [Short screen recording](docs/depgraph-launch-walkthrough.mp4)
+- [Short screen recording] https://drive.google.com/file/d/1DjgaznOJXGIx3qwpsRjk3_PqtGvMYT5l/view?usp=sharing
 - [Projects](docs/screenshots/01-projects.png)
 - [Project detail](docs/screenshots/02-project-detail.png)
 - [Package detail](docs/screenshots/03-package-detail.png)

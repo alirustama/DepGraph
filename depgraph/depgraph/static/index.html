@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DepGraph — Software Supply-Chain Risk Explorer</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/vis-network.min.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="dot"></span>DepGraph <span class="sub">supply-chain risk / CognoDB</span></div>
+      <div class="search-box">
+        <input id="global-search" type="text" placeholder="Jump to a project, package, or CVE-…" />
+      </div>
+      <div class="health-pill" id="health-pill"><span class="led"></span><span id="health-text">checking…</span></div>
+    </header>
+
+    <nav class="sidenav">
+      <a href="#/projects" data-route="projects"><span class="glyph"></span>Projects</a>
+      <a href="#/packages" data-route="packages"><span class="glyph"></span>Packages</a>
+      <a href="#/vulnerabilities" data-route="vulnerabilities"><span class="glyph"></span>Vulnerabilities</a>
+      <div class="label">Analysis</div>
+      <a href="#/blast-radius" data-route="blast-radius"><span class="glyph"></span>Blast radius</a>
+      <a href="#/maintainer-risk" data-route="maintainer-risk"><span class="glyph"></span>Maintainer risk</a>
+    </nav>
+
+    <main class="view" id="view">
+      <div class="state-block">Loading DepGraph…</div>
+    </main>
+  </div>
+
+  <script src="/js/app.js?v=2"></script>
+</body>
+</html>
